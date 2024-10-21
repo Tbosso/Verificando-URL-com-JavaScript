@@ -1,0 +1,19 @@
+// Leitura da entrada do usuário:
+const url = gets();
+var resultado;
+
+// Verifica se a URL começa com "https://"
+if (url.startsWith("https://")) {
+    resultado = "URL segura";
+} 
+// Verifica se a URL começa com "http://"
+else if (url.startsWith("http://")) {
+    resultado = "URL nao segura";
+} 
+// Se não for nenhum dos dois formatos
+else {
+    resultado = "Formato invalido";
+}
+
+// Exibe o resultado
+print(resultado);
