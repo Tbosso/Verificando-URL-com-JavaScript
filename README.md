@@ -18,6 +18,4 @@ Entrada	Saída
 https://web.dio.me/	URL segura
 https://github.com/	URL segura
 http://gitluby.com/	URL nao segura
-www.example.com
-
-Formato invalido
+www.example.com  Formato invalido
